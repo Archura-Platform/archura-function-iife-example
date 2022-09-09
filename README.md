@@ -1,2 +1,2 @@
-# archura-function-iffe-example
-Archura Platform IFFE Function example.
+# archura-function-iife-example
+Archura Platform IIFE Function example.

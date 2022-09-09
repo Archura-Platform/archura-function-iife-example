@@ -1,4 +1,4 @@
-package io.archura.platform.functionalcore.iffe;
+package io.archura.platform.functionalcore.iife;
 
 import io.archura.platform.api.context.Context;
 import io.archura.platform.api.type.Configurable;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.Map;
 
 @Component
-public class IFFEFunction implements ContextConsumer, Configurable {
+public class IIFEFunction implements ContextConsumer, Configurable {
 
     private Map<String, Object> configuration;
 
@@ -21,7 +21,7 @@ public class IFFEFunction implements ContextConsumer, Configurable {
     @Override
     public void accept(Context context) {
         final Logger logger = context.getLogger();
-        logger.info("IFFE function example, configuration: " + configuration);
+        logger.info("IIFE function example, configuration: " + configuration);
     }
 
 }
