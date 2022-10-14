@@ -1,14 +1,12 @@
 package io.archura.platform.functionalcore.iife;
 
 import io.archura.platform.api.context.Context;
-import io.archura.platform.api.type.Configurable;
 import io.archura.platform.api.logger.Logger;
+import io.archura.platform.api.type.Configurable;
 import io.archura.platform.api.type.functionalcore.ContextConsumer;
-import org.springframework.stereotype.Component;
 
 import java.util.Map;
 
-@Component
 public class IIFEFunction implements ContextConsumer, Configurable {
 
     private Map<String, Object> configuration;
